@@ -1,0 +1,110 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styles for the webpage */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-image: linear-gradient(to bottom right, rgb(232, 232, 14), rgb(31, 112, 6));
+    color: #fff;
+   
+  
+  }
+  .tablenav
+  {
+    width: 100%;
+  }
+  #meet{
+    
+    margin-left: 50%;
+  }
+  header span 
+  {
+    background-color: #a2ea8e;
+    color: #fff;
+    font-size: 50px; 
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0%;
+
+  }
+  header img{
+    height: 80px;
+    margin-left: 50px;
+  }
+  .moto p{  
+      text-align: center;
+      padding: 20px;
+  }
+  .team-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  .roletitle 
+  { 
+    text-align: center;
+    
+   height: 30px;
+  }
+  .roletitle span
+  {  margin: 0%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 20px; 
+    color: #ffffff;
+ font-weight: bold;
+    box-shadow: 0 0 5px rgba(241, 3, 3, 0.1);
+   padding-left: 35px;
+   padding-right: 35px;
+    background-image: linear-gradient(to bottom right, rgb(232, 232, 14), rgb(31, 112, 6));
+
+    
+  }
+  
+  .team-member {
+    background-image: linear-gradient(to right, rgba(222, 12, 12, 0.559) , rgba(232, 232, 14, 0.46));
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .team-member p {
+    margin: 5px 0;
+    color: #454545;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
